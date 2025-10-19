@@ -18,18 +18,27 @@
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-const parent = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child 1" }, [
-    React.createElement("h1", {}, "I am a largest heading Tag"),
-    React.createElement("h2", {}, "I am your sbilings"),
-  ]),
-  React.createElement("div", { id: "child 2" }, [
-    React.createElement("h1", {}, "I am a largest of child2 heading Tag"),
-    React.createElement("h2", {}, "I am your child2 sbilings"),
-  ]),
-]);
+// const parent = React.createElement("div", { id: "parent" }, [
+//   React.createElement("div", { id: "child 1" }, [
+//     React.createElement("h1", {}, "I am a largest heading Tag"),
+//     React.createElement("h2", {}, "I am your sbilings"),
+//   ]),
+//   React.createElement("div", { id: "child 2" }, [
+//     React.createElement("h1", {}, "I am a largest of child2 heading Tag"),
+//     React.createElement("h2", {}, "I am your child2 sbilings"),
+//   ]),
+// ]);
 
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// // root.render(heading);
+
+// root.render(parent);
+
+
+// Jsx start
+
+const jsxheading = <h1 className="head" > Namste React using Jsx</h1>
 const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(heading);
+root.render(jsxheading);
 
-root.render(parent);
+
