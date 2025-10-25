@@ -78,3 +78,24 @@
 .search{
     margin: 10px;
 }
+.user-card{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.user-count{
+    display: flex;
+   
+}
+
+.dec-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 30px;
+}
+
+.inc-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 30px;
+}
